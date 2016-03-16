@@ -23,8 +23,13 @@ public class TestPersona {
 		System.out.println("\nTesting fly behavior using the Strategy Desgin Pattern:\n");
 		
 		// test the fly behavior
+		man.talk();
 		man.fly();
+		System.out.println("\n");
+		bear.talk();
 		bear.fly();
+		System.out.println("\n");
+		monkey.talk();
 		monkey.fly();
 	}
 
